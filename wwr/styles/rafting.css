@@ -1,6 +1,6 @@
 
 :root {
-  --primary-color: #055a05; /* forest green */
+  --text-color: #fff; /* white */
   --accent1-color: #264653; /* dark slate blue */
   --accent2-color: #e9c46a; /* light golden yellow */
   --heading-font: "Times New Roman", "Georgia", serif;
@@ -25,7 +25,7 @@ header {
 
 body {
     font-family: var(--body-font);
-    color: var(--accent1-color);
+    color: var(--text-color);
 }
 
 header, main, footer {
@@ -93,13 +93,13 @@ nav ul {
 }
 
 nav ul li a {
-  display: block;           
+  color: var(--accent1-color);
+    display: block;           
   padding: 5px 10px;       
   background-color: #f0f0f0; 
   border: 1px solid #ccc;  
   border-radius: 0px;        
   text-decoration: none;
-  color: #333;
   font-weight: bold;
   text-align: center;
 }
@@ -115,9 +115,7 @@ nav ul li a:hover {
 }
 
 .history {
-    color: #fff;
     text-align: center;
-    padding: 10px 20px;
     background-color: var(--accent1-color);
     border: 1px solid #ddd; 
     padding: 40px 20px;
@@ -126,7 +124,6 @@ nav ul li a:hover {
 }
 
 .history h2 {
-    color: #fff;
     margin-top: 10px;
     margin-bottom: 20px;
 }
@@ -157,13 +154,11 @@ nav ul li a:hover {
     margin: 20px auto;
     max-width: 1200px;
     text-align: center;
-    color: #fff;
 }
 
 .adventures-section h2 {
     margin-top: 10px;
     margin-bottom: 30px;
-    color: #fff;
 }
 
 .adventures-wrapper {
@@ -208,7 +203,6 @@ footer {
 }
 
 footer p {
-    color: #fff;
     margin: 0;
     font-size: 0.9rem;
 }
