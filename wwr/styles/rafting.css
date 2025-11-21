@@ -51,6 +51,11 @@ header img {
 }
 
 /* NAVIGATION */
+
+nav a {
+  text-decoration: none;
+}
+
 nav ul {
   list-style: none;
   display: flex;
@@ -196,6 +201,10 @@ footer {
   max-width: 1200px;
 }
 
+footer a {
+  text-decoration: none;
+}
+
 footer p {
   margin: 0;
   font-size: 0.9rem;
@@ -215,6 +224,6 @@ footer .socialmedia a img {
   height: auto;
 }
 
-.socialmedia {
+.socialmedia a {
     text-decoration: none;
 }
